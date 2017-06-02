@@ -1,0 +1,9 @@
+E:\mycode\mylib\Doublefly_CommonLib\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+E:\mycode\mylib\Doublefly_CommonLib\Utility\bin\Debug\Utility.dll
+E:\mycode\mylib\Doublefly_CommonLib\Utility\bin\Debug\Utility.pdb
+E:\mycode\mylib\Doublefly_CommonLib\Utility\bin\Debug\Newtonsoft.Json.dll
+E:\mycode\mylib\Doublefly_CommonLib\Utility\bin\Debug\NLog.dll
+E:\mycode\mylib\Doublefly_CommonLib\Utility\bin\Debug\Newtonsoft.Json.xml
+E:\mycode\mylib\Doublefly_CommonLib\Utility\bin\Debug\NLog.xml
+E:\mycode\mylib\Doublefly_CommonLib\Utility\obj\Debug\Utility.dll
+E:\mycode\mylib\Doublefly_CommonLib\Utility\obj\Debug\Utility.pdb

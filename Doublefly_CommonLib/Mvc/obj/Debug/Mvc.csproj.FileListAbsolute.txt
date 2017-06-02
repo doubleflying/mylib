@@ -1,0 +1,11 @@
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\Mvc.dll
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\Mvc.pdb
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\Newtonsoft.Json.dll
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\Utility.dll
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\NLog.dll
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\Utility.pdb
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\Newtonsoft.Json.xml
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\bin\Debug\NLog.xml
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\obj\Debug\Mvc.csprojResolveAssemblyReference.cache
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\obj\Debug\Mvc.dll
+E:\mycode\mylib\Doublefly_CommonLib\Mvc\obj\Debug\Mvc.pdb
