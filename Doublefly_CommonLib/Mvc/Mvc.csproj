@@ -48,6 +48,9 @@
     <Compile Include="Controller\BaseController.cs" />
     <Compile Include="Controller\FileController.cs" />
     <Compile Include="Extension\UrlExtension.cs" />
+    <Compile Include="Filter\ActionLogAttribute.cs" />
+    <Compile Include="Filter\CustomExceptionAttribute.cs" />
+    <Compile Include="HttpModule\CustomHttpModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result\CustomJsonResult.cs" />
   </ItemGroup>
@@ -60,6 +63,7 @@
       <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

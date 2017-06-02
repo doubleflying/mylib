@@ -48,7 +48,7 @@ namespace Utility.Helper
         /// 写入错误提示
         /// </summary>
         /// <param name="ex"></param>
-        public static void WriteError(Exception ex)
+        public static void WriteError(System.Exception ex)
         {
             Errorlog.Error(ex);
         }
@@ -73,7 +73,7 @@ namespace Utility.Helper
         /// 写入异常
         /// </summary>
         /// <param name="ex"></param>
-        public void Error(Exception ex)
+        public void Error(System.Exception ex)
         {
             _localLog.Error(ex);
         }

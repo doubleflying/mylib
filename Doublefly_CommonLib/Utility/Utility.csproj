@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attribute\SummaryAttribute.cs" />
+    <Compile Include="Constant\VariableName.cs" />
+    <Compile Include="Exception\CustomException.cs" />
     <Compile Include="Extension\BaseExtension.cs" />
     <Compile Include="Extension\DateExtension.cs" />
     <Compile Include="Extension\EnumExtension.cs" />
@@ -58,7 +60,9 @@
     <Compile Include="Extension\StringExtension.cs" />
     <Compile Include="Helper\CacheHelper.cs" />
     <Compile Include="Helper\ConfigHelper.cs" />
+    <Compile Include="Helper\CookieHelper.cs" />
     <Compile Include="Helper\FileUploadHelper.cs" />
+    <Compile Include="Helper\HttpContextHelper.cs" />
     <Compile Include="Helper\LogHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
