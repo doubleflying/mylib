@@ -30,6 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EmitMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EmitMapper.1.0.0\lib\EmitMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -50,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attribute\SummaryAttribute.cs" />
+    <Compile Include="Common\ParameterRebinder.cs" />
     <Compile Include="Constant\VariableName.cs" />
     <Compile Include="Exceptions\CustomException.cs" />
     <Compile Include="Extension\BaseExtension.cs" />
@@ -62,9 +71,14 @@
     <Compile Include="Helper\ConfigHelper.cs" />
     <Compile Include="Helper\CookieHelper.cs" />
     <Compile Include="Helper\EncryptHelper.cs" />
+    <Compile Include="Helper\ExpressionHelper.cs" />
     <Compile Include="Helper\FileUploadHelper.cs" />
     <Compile Include="Helper\HttpContextHelper.cs" />
     <Compile Include="Helper\LogHelper.cs" />
+    <Compile Include="Mapper\Adapters\AutoMapperAdapter.cs" />
+    <Compile Include="Mapper\Adapters\EmitMapperAdapter.cs" />
+    <Compile Include="Mapper\Configuration.cs" />
+    <Compile Include="Mapper\DefaultProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
