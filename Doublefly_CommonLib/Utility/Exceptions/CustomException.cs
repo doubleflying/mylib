@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Utility.Exception
+namespace Utility.Exceptions
 {
     [Serializable]
     [ComVisible(true)]
     [ClassInterface(ClassInterfaceType.None)]
     [ComDefaultInterface(typeof(_Exception))]
-    public class CustomException : System.Exception
+    public class CustomException : Exception
     {
         /// <summary>
         /// Initializes a new instance of the AppException class.
@@ -29,7 +29,7 @@ namespace Utility.Exception
         /// </summary>
         /// <param name="message">The message that describes the error.</param>
         /// <param name="innerException">The inner exception that is the cause of this exception.</param>
-        public CustomException(string message, System.Exception innerException) : base(message, innerException) { }
+        public CustomException(string message, Exception innerException) : base(message, innerException) { }
         /// <summary>
         /// Initializes a new instance of the AppException class with the specified
         /// string formatter and the arguments that are used for formatting the message which

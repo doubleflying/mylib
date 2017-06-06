@@ -31,7 +31,7 @@ namespace Utility.Helper
                     CacheHelper.SetCache(cacheKey, objModel, DateTime.Now.AddMinutes(180), TimeSpan.Zero);
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 LogHelper.WriteError(ex);
             }
